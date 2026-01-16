@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Parallax sections */
+.parallax {
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.parallax .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* REAL INTERNET IMAGES */
+
+.parallax-1 {
+  background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg');
+}
+
+.parallax-2 {
+  background-image: url('https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg');
+}
+
+.parallax-3 {
+  background-image: url('https://images.pexels.com/photos/46253/mt-fuji-sea-of-clouds-sunrise-46253.jpeg');
+}
+
+/* Normal content sections */
+.normal-section {
+  padding: 80px 20px;
+  background: #f4f4f4;
+  text-align: center;
+  color: #333;
+}
+
+.normal-section h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
